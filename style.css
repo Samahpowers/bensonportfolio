@@ -159,6 +159,7 @@ height:fit-content;
     max-width: 280px;
     height: 340px;
     background-color: rgba(8, 8, 8,0.8);
+   
     border-radius: 45px;
     margin: 16px;
     justify-content: center;
@@ -172,6 +173,11 @@ height:fit-content;
      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
       rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
+}
+.card:hover{
+    border: 1px solid orange;
+    cursor: pointer;
+    
 }
 .card img{
     width: 80px;
