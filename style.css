@@ -70,7 +70,7 @@ ul li img{
 }
 .btn{
     margin: 12px;
-    width: 130px;
+    width: 160px;
     border: 2px solid rgb(236, 163, 4);
     padding: 6px;
     text-align: center;
@@ -79,11 +79,15 @@ ul li img{
     font-size: 18px;
     font-weight: bold;
 }
+.btn a{
+    text-decoration: none;
+}
 .btn:hover{
     background-color:rgb(236, 163, 4) ;
     color: white;
     cursor: pointer;
 }
+
 .submain{
     position: absolute;
     top: 100px;
@@ -104,14 +108,16 @@ ul li img{
     
 }
 .footer{
+    display: flex;
     position: absolute;
     background-color: #ededed;
     top: 556px;
     width: 100%;
-    height: 100vh;
+   
+    gap: 6px;
     
 }
-.footercontainer{
+.cardcontainer{
     display: flex;
     position: relative;
     padding: 6px;
@@ -119,6 +125,32 @@ ul li img{
     justify-content: flex-start;
     width: 700px;
     flex-wrap: wrap;
+    
+}
+.footerright{
+    display: flex;
+    flex-direction: column;
+position: relative;
+width: 700px;
+
+top: 40px;
+right: 0;
+min-height: 900px;
+height:fit-content;
+
+
+    
+
+}
+.footerright-co{
+    position: absolute;
+    top: 100px;
+    padding: 16px;
+    width: 100%;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
     
 }
 .card{
@@ -135,6 +167,10 @@ ul li img{
     align-items: center;
     color: white;
     gap: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25)
+     0px 50px 100px -20px, 
+     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 }
 .card img{
@@ -148,7 +184,4 @@ ul li img{
 }
 .card p{
     text-align: center;
-}
-#ch{
-    margin-top: 100px;
 }
