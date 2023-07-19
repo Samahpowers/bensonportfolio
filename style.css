@@ -9,7 +9,7 @@
 .container{
     position: relative;
     width: 100%;
-    height: 100/5;
+    height: 100vh;
 }
 nav ul{
     position: relative;
@@ -31,7 +31,7 @@ nav ul li a{
     
 }
 nav ul li a:hover{
-    color: rgba(22, 22, 21, 0.8);
+    color: rgb(236, 163, 4);
    
 }
 ul li img{
@@ -47,6 +47,7 @@ ul li img{
     top: 60px;
     align-items: center;
     
+    
  
 }
 .leftframe h3{
@@ -61,15 +62,93 @@ ul li img{
     margin-right: 10px;
 }
 .main{
-    position: relative;
-    margin-left: 54px;
+    position: relative;    
+    width: 100%;
+  padding-left: 54px;
+  padding-right: 54px;
+    
+}
+.btn{
+    margin: 12px;
+    width: 130px;
+    border: 2px solid rgb(236, 163, 4);
+    padding: 6px;
+    text-align: center;
+    border-radius: 20px;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:rgb(236, 163, 4) ;
+    color: white;
+    cursor: pointer;
 }
 .submain{
     position: absolute;
     top: 100px;
     width: 300px;
 }
+.submainr{
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    right: 200px;
+    top: 0px;
+    z-index: -1;
+}
+
 .submain h1{
     font-size: 34px;
-    font-weight: bolder;
+    font-weight: bolder;   
+    
+}
+.footer{
+    position: absolute;
+    background-color: #ededed;
+    top: 556px;
+    width: 100%;
+    height: 100vh;
+    
+}
+.footercontainer{
+    display: flex;
+    position: relative;
+    padding: 6px;
+    display: flex;
+    justify-content: flex-start;
+    width: 700px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    display: flex;
+    min-width: 260px;
+    max-width: 280px;
+    height: 340px;
+    background-color: rgba(8, 8, 8,0.8);
+    border-radius: 45px;
+    margin: 16px;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 16px;
+
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px ;
+    background-color: white;
+    border: 1px solid orange;
+    
+    
+}
+.card p{
+    text-align: center;
+}
+#ch{
+    margin-top: 100px;
 }
