@@ -1,7 +1,19 @@
 const cardDivs = document.querySelectorAll(".card")
 const paragraph = document.querySelectorAll(".rsn")
 const contact =document.querySelector(".contact")
+const portfolio =document.querySelector(".portfolio")
 const contactsPopUp = document.querySelector(".contacts-popup")
+const mainDetails = document.querySelector(".footer")
+
+portfolio.addEventListener("click",(e)=>{
+  if(portfolio.contains(e.target)){
+mainDetails.scrollIntoView({ behavior: "smooth" })
+console.log(e.target)
+  }
+  
+  
+})
+
 document.addEventListener("click", (e)=>{
   if(contact.contains(e.target)){
 contactsPopUp.style.display = "block"
