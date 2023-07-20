@@ -11,6 +11,9 @@
     width: 100%;
     height: 100vh;
 }
+ul{
+    background-color: rgba(4, 2, 119, 0.8);
+}
 nav ul{
     position: relative;
     display: flex;
@@ -264,16 +267,32 @@ border: none;
         left: 250px;
         background-color: rgb(58, 58, 58);
     }
+    .submainr{
+        display: none;
+    }
+    
+    .nav ul {
+        padding: 0;
+    }
+    .footerright{
+        display: none;
+    }
+    .card{
+        min-width: 220px;
+    max-width: 230px;
+    height: 310px;
+    }
+    .main{
+        padding-left: 24px;
+  padding-right: 24px;
+  align-items: center;
+    }
 }
 @media screen and (max-width:553px) {
     .contacts-popup{
         left: 100px;
         background-color: rgb(58, 58, 58);
     };
-    .submainr{
-        display: none;
-    }
-    .nav ul {
-        padding: 0;
-    }
+    
+    
 }
