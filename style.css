@@ -217,7 +217,7 @@ height:fit-content;
     
 }
 .contacts-popup{
-    display: block;
+    display: none;
     background-image: linear-gradient(rgba(12,3,51,0.5),rgba(12,3,51,0.5));
     flex-direction: column;
     position: absolute;
