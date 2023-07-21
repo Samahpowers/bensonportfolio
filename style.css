@@ -295,6 +295,22 @@ border: none;
   align-items: center;
     }
 }
+
+.mobilecontainer{
+    display: none;
+ 
+    padding-left: 16px;
+}
+.mobilecontainer .btn{
+margin-left: 70px;
+}
+.mobilecard{
+    position: relative;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
+
 @media screen and (max-width:553px) {
     .contacts-popup{
         left: 200px;
@@ -308,6 +324,12 @@ border: none;
         display: none;
         
     }
+    .mobilecontainer{       
+        display: block;
+        
+        
+    }
+    
     .submain{
         align-items: center;
         justify-content: center;
