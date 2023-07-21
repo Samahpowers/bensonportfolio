@@ -301,8 +301,9 @@ border: none;
  
     padding-left: 16px;
 }
-.mobilecontainer .btn{
+.mobilebtn{
 margin-left: 70px;
+display: none;
 }
 .mobilecard{
     position: relative;
@@ -329,7 +330,10 @@ margin-left: 70px;
         
         
     }
-    
+    .mobilebtn{
+        display: block;
+        
+    }
     .submain{
         align-items: center;
         justify-content: center;
