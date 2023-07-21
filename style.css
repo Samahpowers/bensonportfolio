@@ -297,7 +297,7 @@ border: none;
 }
 @media screen and (max-width:553px) {
     .contacts-popup{
-        left: 100px;
+        left: 200px;
         background-color: rgb(58, 58, 58);
     };
     
@@ -323,7 +323,7 @@ border: none;
         top: 25px;
     }
     .contacts-popup{
-        left: 30px;
+        left: 60px;
         width: 260px;
     }
 }
